@@ -1,0 +1,136 @@
+.xl-text {
+  font-size: 75px;
+}
+
+.btn-outline-secondary {
+  color: var(--bs-secoundary);
+}
+.btn-outline-secondary:hover {
+  color: #fff;
+}
+
+.header .decoration-star {
+  top: 80px;
+  left: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.header .decoration-star-two {
+  top: 80px;
+  right: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.navbar-sticy {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.details .decoration-star {
+  left: -200px;
+  width: 500px;
+}
+
+.details-2 .decoration-star {
+  right: -200px;
+  width: 500px;
+  bottom: 0;
+}
+
+.contact .decoration-star {
+  left: -200px;
+  width: 500px;
+  bottom: 10px;
+}
+
+.form textarea {
+  resize: none !important;
+}
+
+.close-modal {
+  z-index: 20;
+  top: 20px;
+  right: 20px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: #081e43;
+}
+
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #44434a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn:hover {
+  background-color: #1d1d21;
+}
+
+.to-top-btn img {
+  margin-bottom: 0.25rem;
+  width: 18px;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .xl-text {
+    font-size: 50px;
+  }
+  .navbar .btn-outline-secondary {
+    margin-top: 20px;
+  }
+  .header {
+    margin-top: 0 !important;
+    text-align: center;
+  }
+  .header .decoration-star {
+    left: -100px;
+    width: 250px;
+  }
+  .header .decoration-star-two {
+    right: -100px;
+    width: 250px;
+  }
+  .header .image-container {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .services .col-md-4 {
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0;
+  }
+  .services .col-md-4:last-child {
+    border: none;
+  }
+  .carousel-item p {
+    width: 70% !important;
+    font-size: inherit !important;
+  }
+}
